@@ -4,7 +4,7 @@ Iako je zanimljivo raditi sa promenljivim datumom kojeg dobijamo sa ```date()```
 
 Među vama dostupnim podacima na projektima će te skoro sigurno imati datume i vremena. Bilo to vreme registracije na sajtu, vreme slanja poruke ili vreme poslednjeg plaćanja. 
 
-Ako bismo napisali neki proizvoljni opis parametara ```date()``` funkcije, to bi bio: ```date($formatDatuma, $trenutnoVreme)```. Dakle, sa prvim parametrom smo već upoznati, i on može biti kombinacija slova i simbola uz pomoć kojih dobijamo željeni format, od kojih je(bar na serveru) najčešći ```Y-m-d H:i:s```. 
+Ako bismo napisali neki proizvoljni opis parametara ```date()``` funkcije, to bi bio: ```date($formatDatuma, $trenutnoVreme)```. Dakle, sa prvim parametrom smo već upoznati, i on može biti kombinacija slova i simbola uz pomoć kojih dobijamo željeni format, od kojih je bar na serveru) najčešći ```Y-m-d H:i:s```. 
 
 Drugi parametar, se podrazumeva da je u pitanju trenutno vreme, ako ga ne damo. Znači ```default``` vrednost je trenutno vreme. U prethodnom poglavlju imamo primere za to, poput ```echo date('Y');``` za ispis trenutne godine. Ako želimo da koristimo drugi parametar, on mora biti broj u obliku ```Unix``` vremena, koje je napamet teško pisati, i generalno se koriste pomoćne funkcije za to. Da počnemo sa primerom:
 
